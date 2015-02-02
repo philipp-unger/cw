@@ -1,1 +1,1 @@
-echo "# cw"
+cw
