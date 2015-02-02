@@ -1,1 +1,1 @@
-<?php echo  'Café Wagner' ?>
+<?php echo  'Café Wagner Event Page' ?>
