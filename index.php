@@ -46,7 +46,8 @@
 				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15313"><span>Back to the Codrops Article</span></a></span>
 			</div>
 			<header>
-				<h1>Nifty Modal Window Effects <span>Events & News</span></h1>
+				<img src="img/wagner.svg" width="300">
+				<h1>Events & News</h1>
 			</header>
 
 			<div class="main clearfix">
@@ -62,12 +63,12 @@
 												Unsere Türen sind für Sie weit geöffnet. <br><br>
 												Wir freuen uns auf Sie. Celina und Ihr Team' ;
 						?>
-						<img src="<?php echo $ogImg ?>">
+						<div class="txtC">
+							<img src="<?php echo $ogImg ?>">
+						</div>
 						<h1><?php echo $ogTitle ?></h1>
 						<p><?php echo $description ?></p>
 										
-						<button class="md-trigger" data-modal="modal-1">mehr erfahen</button>
-
 						<div>
 							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 						</div>
@@ -75,25 +76,6 @@
 				</div>
 
 				<div class="column">
-					<div class="content">
-						<?php 
-							$ogTitle 		 = 'Test';
-							$ogImg   		 = 'https://scontent-a-fra.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/s180x540/10442983_320543884801792_6796196549357879951_n.jpg?oh=750c81bb54a388a554ea0f222d356003&oe=55572FF3';						
-							$ogDescription	 = 'test' ;
-						?>
-						<h1><?php echo $ogTitle ?></h1>
-						<p><?php echo $ogDescription ?></p>
-
-						<button class="md-trigger" data-modal="modal-2">mehr erfahen</button>
-
-						<div>
-							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-						</div>
-					</div>
-
-				</div>
-
-								<div class="column">
 					<div class="content">
 						<?php 
 							$ogTitle 		 = 'Powerfrauen';

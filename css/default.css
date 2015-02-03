@@ -1,5 +1,5 @@
 /* General Demo Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 @font-face {
 	font-family: 'codropsicons';
@@ -21,18 +21,22 @@ body, html { font-size: 100%; padding: 0; margin: 0; }
 
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	color: #e2001a;
+	color: #CB1719;
 	background: #f5f5f5;
 }
 
 a {
-	color: #c0392b;
+	color: #CB1719;
 	text-decoration: none;
 }
 
 a:hover,
 a:active {
 	color: #333;
+}
+
+.txtC {
+	text-align: center;
 }
 
 /* Header Style */
@@ -48,11 +52,18 @@ a:active {
 	padding: 3em;
 }
 
+.container > header img{
+	margin-left: -32px;
+	margin-bottom: 25px
+}
+
 .container > header h1 {
 	font-size: 2.625em;
 	line-height: 1.3;
 	margin: 0;
 	font-weight: 300;
+
+	color: #454544
 }
 
 .container > header span {
@@ -82,14 +93,17 @@ a:active {
 .column .content {
 	background: white;
 	padding: 25px;
+
+	box-shadow: 0px 1px 1px rgba(0,0,0,.1);
 }
 
 .column .content img {
-border-radius: 50%;
-height: 130px;
-width: 130px;
-box-shadow: 0px 0px 0px 2px;
-display: inline-block;
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
+	box-shadow: 0px 0px 0px 2px;
+	display: inline-block;
+	margin-bottom: 30px
 }
 
 .column .content h1 {
@@ -167,7 +181,7 @@ display: inline-block;
 button {
 	border: none;
 	padding: 0.6em 1.2em;
-	background: #c0392b;
+	background: #CB1719;
 	color: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-size: 1em;
