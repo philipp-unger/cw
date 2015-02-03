@@ -154,6 +154,10 @@ a:active {
 	margin-bottom: 20px
 }
 
+.column .content .little {
+	font-size: .8em
+} 
+
 .column .content button {
 	margin-bottom: 20px
 }
