@@ -1,3 +1,7 @@
+<?php 
+    $urlServer = "https://cw-event.herokuapp.com/";
+?>
+
 <!DOCTYPE html>
 <html lang="de" class="no-js">
 	<head>
@@ -53,7 +57,7 @@
 							$news 			 = "nein";
 
 							$ogTitle 		 = '14.02 - der Tag der Verliebten';
-							$ogImg   		 = 'img/valentin/valentin.jpg';						
+							$ogImg   		 = '<?php echo $urlServer; ?>/img/valentin/valentin.jpg';						
 							$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Celina und Ihr Team' ;
 
 							$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. <br> 
@@ -81,7 +85,7 @@
 							$news 			 = "ja";
 
 							$ogTitle 		 = 'Powerfrauen-Abende';
-							$ogImg   		 = 'img/share.jpg';						
+							$ogImg   		 = '<?php echo $urlServer; ?>/img/share.jpg';						
 							$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen"' ;
 
 							$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
