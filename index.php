@@ -52,17 +52,25 @@
 			<div class="main clearfix">
 	
 				<div class="column">
+					<div class="content">
+						<?php 
+							$ogTitle 		 = '14.02 - der Tag der Verliebten';
+							$ogImg   		 = 'https://www.google.de/images/srpr/logo11w.png';						
+							$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Celina und Ihr Team' ;
 
-					<?php 
-						$ogTitle 		 = '14.02 - der Tag der Verliebten';
-						$ogImg   		 = 'https://fbstatic-a.akamaihd.net/rsrc.php/v2/y6/r/YQEGe6GxI_M.png';						
-						$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Celina und Ihr Team' ;
-					?>
-					
-					<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-					
-					<button class="md-trigger" data-modal="modal-1">mehr erfahen</button>
+							$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. <br> 
+												Unsere Türen sind für Sie weit geöffnet. <br><br>
+												Wir freuen uns auf Sie. Celina und Ihr Team' ;
+						?>
+						<h1><?php echo $ogTitle ?></h1>
+						<p><?php echo $description ?></p>
+										
+						<button class="md-trigger" data-modal="modal-1">mehr erfahen</button>
 
+						<div>
+							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+						</div>
+					</div>
 				</div>
 
 				<div class="column">
@@ -82,6 +90,28 @@
 						</div>
 					</div>
 
+				</div>
+
+								<div class="column">
+					<div class="content">
+						<?php 
+							$ogTitle 		 = 'Powerfrauen';
+							$ogImg   		 = 'https://www.google.de/images/srpr/logo11w.png';						
+							$ogDescription	 = 'Ausgewählte Treffen' ;
+
+							$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. <br> 
+												Unsere Türen sind für Sie weit geöffnet. <br><br>
+												Wir freuen uns auf Sie. Celina und Ihr Team' ;
+						?>
+						<h1><?php echo $ogTitle ?></h1>
+						<p><?php echo $description ?></p>
+										
+						<button class="md-trigger" data-modal="modal-1">mehr erfahen</button>
+
+						<div>
+							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div><!-- /container -->
