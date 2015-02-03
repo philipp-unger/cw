@@ -82,7 +82,7 @@
 
 							$ogTitle 		 = 'Powerfrauen-Abende';
 							$ogImg   		 = 'https://cw-event.herokuapp.com/img/share.jpg';						
-							$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen"' ;
+							$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für Powerfrauen' ;
 
 							$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
 												<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
