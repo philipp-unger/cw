@@ -1,7 +1,7 @@
 <?php 
-$title 			= $_GET['title'];
-$img 			= $_GET['img'];
-$description 	= $_GET['description'];
+	$title 			= $_GET['title'];
+	$img 			= $_GET['img'];
+	$description 	= $_GET['description'];
 ?>
 
 <!doctype html>

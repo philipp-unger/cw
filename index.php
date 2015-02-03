@@ -4,13 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Nifty Modal Window Effects</title>
-		<meta name="description" content="Nifty Modal Window Effects with CSS Transitions and Animations" />
-		<meta name="keywords" content="modal, window, overlay, modern, box, css transition, css animation, effect, 3d, perspective" />
-		<meta name="author" content="Codrops" />
-
-
-		<meta property="description" content="Social plugins let you see what your friends have liked, commented on or shared on sites across the web." /><meta property="fb:app_id" content="113869198637480" /><meta property="og:site_name" content="Facebook Developers" /><meta property="og:title" content="Social Plugins" /><meta property="og:type" content="article" /><meta property="og:url" content="https://developers.facebook.com/docs/plugins" /><meta property="og:image" content="https://fbstatic-a.akamaihd.net/rsrc.php/v2/y6/r/YQEGe6GxI_M.png" /><meta property="og:locale" content="en_US" /><meta property="og:description" content="Social plugins let you see what your friends have liked, commented on or shared on sites across the web." />
+		<title>Café Wagner</title>
 
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
@@ -41,7 +35,8 @@
 
 
 	    <?php 
-	    	include '_news/1.php'
+	    	include '_news/1.php';
+	    	include '_news/2.php'
 	    ?>
 
 		<div class="container">
@@ -51,12 +46,11 @@
 				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15313"><span>Back to the Codrops Article</span></a></span>
 			</div>
 			<header>
-				<h1>Nifty Modal Window Effects <span>Some inspiration for different modal window appearances</span></h1>
+				<h1>Nifty Modal Window Effects <span>Events & News</span></h1>
 			</header>
+
 			<div class="main clearfix">
-				<div class="column">
-					<p>There are many possibilities for modal overlays to appear. Here are some modern ways of showing them using CSS transitions and animations.</p>
-				</div>
+	
 				<div class="column">
 
 					<?php 
@@ -67,21 +61,26 @@
 					
 					<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 					
-					<button class="md-trigger" data-modal="modal-10">mehr erfahen</button>
+					<button class="md-trigger" data-modal="modal-1">mehr erfahen</button>
 
 				</div>
 
 				<div class="column">
+					<div class="content">
+						<?php 
+							$ogTitle 		 = 'Test';
+							$ogImg   		 = 'https://scontent-a-fra.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/s180x540/10442983_320543884801792_6796196549357879951_n.jpg?oh=750c81bb54a388a554ea0f222d356003&oe=55572FF3';						
+							$ogDescription	 = 'test' ;
+						?>
+						<h1><?php echo $ogTitle ?></h1>
+						<p><?php echo $ogDescription ?></p>
 
-					<?php 
-						$ogTitle 		 = 'Test';
-						$ogImg   		 = 'https://scontent-a-fra.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/s180x540/10442983_320543884801792_6796196549357879951_n.jpg?oh=750c81bb54a388a554ea0f222d356003&oe=55572FF3';						
-						$ogDescription	 = 'test' ;
-					?>
-					
-					<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-					
-					<button class="md-trigger" data-modal="modal-10">mehr erfahen</button>
+						<button class="md-trigger" data-modal="modal-2">mehr erfahen</button>
+
+						<div>
+							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+						</div>
+					</div>
 
 				</div>
 			</div>

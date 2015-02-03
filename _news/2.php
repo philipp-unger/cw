@@ -1,6 +1,6 @@
-<div class="md-modal md-effect-10" id="modal-1">
+<div class="md-modal md-effect-10" id="modal-2">
 	<div class="md-content">
-		<h3>Modal Dialog</h3>
+		<h3>2</h3>
 		<div>
 			<p>This is a modal window. You can do the following things with it:</p>
 			<ul>
