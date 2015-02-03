@@ -55,13 +55,14 @@
 					<div class="content">
 						<?php 
 							$ogTitle 		 = '14.02 - der Tag der Verliebten';
-							$ogImg   		 = 'https://www.google.de/images/srpr/logo11w.png';						
+							$ogImg   		 = 'https://scontent-a-fra.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/s180x540/10442983_320543884801792_6796196549357879951_n.jpg?oh=750c81bb54a388a554ea0f222d356003&oe=55572FF3';						
 							$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Celina und Ihr Team' ;
 
 							$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. <br> 
 												Unsere Türen sind für Sie weit geöffnet. <br><br>
 												Wir freuen uns auf Sie. Celina und Ihr Team' ;
 						?>
+						<img src="<?php echo $ogImg ?>">
 						<h1><?php echo $ogTitle ?></h1>
 						<p><?php echo $description ?></p>
 										
