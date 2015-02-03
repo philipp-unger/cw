@@ -110,6 +110,7 @@ a:active {
 	background: #CB1719;
 	padding: 3px 8px;
 	color: white;
+	font-size: 16px;
 }
 
 .column .content .news:before{
