@@ -14,6 +14,24 @@
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
+		<script>
+	      window.fbAsyncInit = function() {
+	        FB.init({
+	          appId      : '710765662369464',
+	          xfbml      : true,
+	          version    : 'v2.1'
+	        });
+	        FB.Canvas.setAutoGrow();
+	      };
+
+	      (function(d, s, id){
+	         var js, fjs = d.getElementsByTagName(s)[0];
+	         if (d.getElementById(id)) {return;}
+	         js = d.createElement(s); js.id = id;
+	         js.src = "//connect.facebook.net/en_US/sdk.js";
+	         fjs.parentNode.insertBefore(js, fjs);
+	       }(document, 'script', 'facebook-jssdk'));
+	    </script>
 		<!-- All modals added here for the demo. You would of course just have one, dynamically created -->
 		<div class="md-modal md-effect-1" id="modal-1">
 			<div class="md-content">
