@@ -28,13 +28,13 @@
 		<script src="js/modernizr.custom.js"></script>
 
 	    <script>
-	        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
-	            // Mobile Site auf dem Server
-	            window.location = "<?php echo $urlServer; ?>"
-	        } else {
-	            // Desktop Facebook Tab
-	            window.location = "<?php echo $urlFBTab; ?>"
-	        }
+	        // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
+	        //     // Mobile Site auf dem Server
+	        //     window.location = "<?php echo $urlServer; ?>"
+	        // } else {
+	        //     // Desktop Facebook Tab
+	        //     window.location = "<?php echo $urlFBTab; ?>"
+	        // }
     	</script>
 	</head>
 	<body>
