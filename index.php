@@ -6,6 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Café Wagner</title>
 
+
+		<meta property="fb:app_id" content="710765662369464" />
+		<meta property="og:site_name" content="Café Wagner" />
+		<meta property="og:title" content="Events & News | Café Wagner" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://cw-event.herokuapp.com/img/share.jpg" />
+		<meta property="og:locale" content="de_DE" />
+		<meta property="og:description" content="Aktuelle Events & Neuigkeiten rundum des Café Wagners finden Sie jetzt immer hier" />
+
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
