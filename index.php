@@ -1,3 +1,10 @@
+<?php
+
+    $urlServer = "https://cw-event.herokuapp.com/";
+    $urlFBTab = "https://www.facebook.com/pages/Celina-Kutylo/319744648215049?sk=app_710765662369464";
+
+?>
+
 <!DOCTYPE html>
 <html lang="de" class="no-js">
 	<head>
@@ -19,6 +26,16 @@
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
+
+	    <script>
+	        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
+	            // Mobile Site auf dem Server
+	            window.location = "<?php echo $urlServer; ?>"
+	        } else {
+	            // Desktop Facebook Tab
+	            window.location = "<?php echo $urlFBTab; ?>"
+	        }
+    	</script>
 	</head>
 	<body>
 		<script>
