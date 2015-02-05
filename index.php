@@ -127,7 +127,7 @@
 							$ogDescription	 = '' ;
 
 							$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-							$description	 = '' ;
+							$description	 = ' ' ;
 						?>
 						<?php if ($news == "ja" ){ echo "<span class='news'>News</span>"; } ?>
 						<?php if ($img == "ja" ){ echo "<div class='txtC imgRound'><img src=". $imgPost ."></div>"; } ?>
