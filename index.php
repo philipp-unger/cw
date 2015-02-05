@@ -33,24 +33,25 @@
 		<script src="js/plugin.js"></script>
 
 		<script>
-		  // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
-		  //     if (window != window.top) {
-		  //         // If in iframe, redirect to standalone site
+		  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
+		      if (window != window.top) {
+		          // If in iframe, redirect to standalone site
 
-		  //         // Mobile Site auf dem Server
-		  //         window.top.location = "<?php echo $urlServer ?>"
-		  //     }
+		          // Mobile Site auf dem Server
+		          window.top.location = "<?php echo $urlServer ?>"
+		      }
 
-		  // } else {
-		  //     if (window == window.top) {
-		  //         // If not in iframe, redirect to facebook app
+		  } else {
+		      if (window == window.top) {
+		          // If not in iframe, redirect to facebook app
 
-		  //         // Desktop Facebook Tab
-		  //         window.top.location = "<?php echo $urlFBTab ?>"
-		  //     }
-		  // }
+		          // Desktop Facebook Tab
+		          window.top.location = "<?php echo $urlFBTab ?>"
+		      }
+		  }
 
 		</script>
+		
 		<style type="text/css">
 			@media screen and (min-width: 1105px) {
 				.item { 
