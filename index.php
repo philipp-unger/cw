@@ -116,7 +116,7 @@
 	
 
 					<?php 
-						$endDate 		 = '9-02-2015';
+						$endDate 		 = '09-02-2015';
 
 						$news 			 = "nein";
 						$img 			 = "ja";
