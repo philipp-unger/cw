@@ -28,22 +28,22 @@
 		<script src="js/modernizr.custom.js"></script>
 
 		<script>
-		  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
-		      if (window != window.top) {
-		          // If in iframe, redirect to standalone site
+		  // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
+		  //     if (window != window.top) {
+		  //         // If in iframe, redirect to standalone site
 
-		          // Mobile Site auf dem Server
-		          window.top.location = "<?php echo $urlServer ?>"
-		      }
+		  //         // Mobile Site auf dem Server
+		  //         window.top.location = "<?php echo $urlServer ?>"
+		  //     }
 
-		  } else {
-		      if (window == window.top) {
-		          // If not in iframe, redirect to facebook app
+		  // } else {
+		  //     if (window == window.top) {
+		  //         // If not in iframe, redirect to facebook app
 
-		          // Desktop Facebook Tab
-		          window.top.location = "<?php echo $urlFBTab ?>"
-		      }
-		  }
+		  //         // Desktop Facebook Tab
+		  //         window.top.location = "<?php echo $urlFBTab ?>"
+		  //     }
+		  // }
 		</script>
 	</head>
 	<body>
@@ -86,19 +86,23 @@
 					<div class="content">
 						<?php 
 							$news 			 = "nein";
+							$img 			 = "ja";
+
+							$folderName		 = "valentin/";							
 
 							$ogTitle 		 = '14.02 - der Tag der Verliebten';
-							$ogImg   		 = 'https://cw-event.herokuapp.com/img/valentin/valentin.jpg';						
+							$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
 							$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Celina und Ihr Team' ;
 
+							$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 							$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. <br> 
 												Unsere Türen sind für Sie weit geöffnet. <br><br>
 												Wir freuen uns auf Sie. <br><br> 
 												Celina und Ihr Team' ;
 						?>
 						<?php if ($news == "ja" ){ echo "<span>News</span>"; } ?>
-
-						<div class="txtC"><img src="<?php echo $ogImg ?>"></div>
+						<?php if ($img == "ja" ){ echo "<div class='txtC imgRound'><img src=". $imgPost ."></div>"; } ?>
+						
 						<h1><?php echo $ogTitle ?></h1>
 						<p><?php echo $description ?></p>
 										
@@ -114,15 +118,19 @@
 					<div class="content">
 						<?php
 							$news 			 = "ja";
+							$img 			 = "ja";
 
-							$ogTitle 		 = 'Powerfrauen-Abende';
-							$ogImg   		 = 'https://cw-event.herokuapp.com/img/share.jpg';						
-							$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für Powerfrauen' ;
+							$folderName		 = "pirogen-tag/";
 
-							$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
-												<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
+							$ogTitle 		 = 'Jeder Freitag ist jetzt russischer Pirogen-Tag';					
+							$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+							$ogDescription	 = '' ;
+
+							$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+							$description	 = '' ;
 						?>
 						<?php if ($news == "ja" ){ echo "<span class='news'>News</span>"; } ?>
+						<?php if ($img == "ja" ){ echo "<div class='txtC imgRound'><img src=". $imgPost ."></div>"; } ?>
 
 						<h1><?php echo $ogTitle ?></h1>
 						<p><?php echo $description ?></p>
@@ -132,6 +140,35 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="column">
+					<div class="content">
+						<?php
+							$news 			 = "ja";
+							$img 			 = "nein";
+
+							$folderName		 = "";	
+
+							$ogTitle 		 = 'Powerfrauen-Abende';
+							$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+							$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für Powerfrauen' ;
+
+							$imgPost		 = '';
+							$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
+												<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
+						?>
+						<?php if ($news == "ja" ){ echo "<span class='news'>News</span>"; } ?>
+						<?php if ($img == "ja" ){ echo "<div class='txtC imgRound'><img src=". $imgPost ."></div>"; } ?>
+						
+						<h1><?php echo $ogTitle ?></h1>
+						<p><?php echo $description ?></p>
+										
+						<div>
+							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div><!-- /container -->
 		<div class="md-overlay"></div><!-- the overlay element -->
