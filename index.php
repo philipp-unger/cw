@@ -33,22 +33,22 @@
 		<script src="js/plugin.js"></script>
 
 		<script>
-		  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
-		      if (window != window.top) {
-		          // If in iframe, redirect to standalone site
+		  // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
+		  //     if (window != window.top) {
+		  //         // If in iframe, redirect to standalone site
 
-		          // Mobile Site auf dem Server
-		          window.top.location = "<?php echo $urlServer ?>"
-		      }
+		  //         // Mobile Site auf dem Server
+		  //         window.top.location = "<?php echo $urlServer ?>"
+		  //     }
 
-		  } else {
-		      if (window == window.top) {
-		          // If not in iframe, redirect to facebook app
+		  // } else {
+		  //     if (window == window.top) {
+		  //         // If not in iframe, redirect to facebook app
 
-		          // Desktop Facebook Tab
-		          window.top.location = "<?php echo $urlFBTab ?>"
-		      }
-		  }
+		  //         // Desktop Facebook Tab
+		  //         window.top.location = "<?php echo $urlFBTab ?>"
+		  //     }
+		  // }
 
 		</script>
 		<style type="text/css">
@@ -127,6 +127,8 @@
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
 						$ogDescription	 = 'Leipziger Geschichten aus 1000 Jahren / Lesung und anschließender Stadtführung mit dem Autor S. Ringel / Eintritt frei' ;
 
+
+						$title 			 = 'Einladung zur Buchpremiere <br> 8.2.2015 <br> um 15 Uhr';
 						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 						
 						$description	 = 'Wir freuen uns auf Sie, am 8.2.2015, um 15 Uhr im Cafe Wagner <br>
@@ -150,6 +152,7 @@
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
 						$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Celina und Ihr Team' ;
 
+						$title 			 = $ogTitle;
 						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 						$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. <br> 
 											Unsere Türen sind für Sie weit geöffnet. <br><br>
@@ -174,6 +177,7 @@
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
 						$ogDescription	 = '' ;
 
+						$title 			 = $ogTitle;
 						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 						$description	 = ' ' ;
 
@@ -196,6 +200,7 @@
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
 						$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für Powerfrauen' ;
 
+						$title 			 = $ogTitle;
 						$imgPost		 = '';
 						$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
 											<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
