@@ -82,7 +82,7 @@ a:active {
 .column {
 	float: left;
 	width: 50%;
-	padding: 0 2em;
+	padding: 0 4%;
 	min-height: 300px;
 	position: relative;
 	margin-bottom: 50px;
@@ -242,7 +242,7 @@ button:hover {
 	background: #A5281B;
 }
 
-@media screen and (max-width: 46.0625em) {
+@media screen and (max-width: 790px) {
 	.column {
 		width: 100%;
 		min-width: auto;

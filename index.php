@@ -3,6 +3,8 @@
     $urlServer = "https://cw-event.herokuapp.com/";
     $urlFBTab = "https://www.facebook.com/pages/Celina-Kutylo/319744648215049?sk=app_710765662369464";
 
+    date_default_timezone_set('Europe/London');
+	$mtf = date('j-m-Y'); 
 ?>
 
 <!DOCTYPE html>
@@ -27,6 +29,9 @@
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/plugin.js"></script>
+
 		<script>
 		  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
 		      if (window != window.top) {
@@ -44,7 +49,34 @@
 		          window.top.location = "<?php echo $urlFBTab ?>"
 		      }
 		  }
+
 		</script>
+		<style type="text/css">
+			@media screen and (min-width: 1105px) {
+				.item { 
+					width: 25%;	
+				}
+			}
+			@media screen and (min-width: 790px) and (max-width: 1104px) {
+				.item { 
+					width: 40%;
+				}
+			}
+			@media screen and (max-width: 790px ) {
+				.item { 
+					padding: 1em
+				}				
+			}
+			@media screen and (min-width: 790px ) {
+				.item { 	
+					padding: 0;
+					margin: 0 3% 50px;
+					/*max-width: 42%;*/
+					/*height: inherit;*/
+					box-sizing: initial;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<script>
@@ -80,94 +112,99 @@
 				<h1>Events & News</h1>
 			</header>
 
-			<div class="main clearfix">
+			<div id="container" class="main clearfix">
 	
-				<div class="column">
-					<div class="content">
-						<?php 
-							$news 			 = "nein";
-							$img 			 = "ja";
 
-							$folderName		 = "valentin/";							
+					<?php 
+						$endDate 		 = '09-02-2015';
 
-							$ogTitle 		 = '14.02 - der Tag der Verliebten';
-							$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
-							$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Celina und Ihr Team' ;
+						$news 			 = "nein";
+						$img 			 = "ja";
 
-							$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-							$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. <br> 
-												Unsere Türen sind für Sie weit geöffnet. <br><br>
-												Wir freuen uns auf Sie. <br><br> 
-												Celina und Ihr Team' ;
-						?>
-						<?php if ($news == "ja" ){ echo "<span>News</span>"; } ?>
-						<?php if ($img == "ja" ){ echo "<div class='txtC imgRound'><img src=". $imgPost ."></div>"; } ?>
+						$folderName		 = "lesung_leipziger-geschichten/";							
+
+						$ogTitle 		 = 'Einladung zur Buchpremiere // 8.2.2015 // um 15 Uhr';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'Leipziger Geschichten aus 1000 Jahren / Lesung und anschließender Stadtführung mit dem Autor S. Ringel / Eintritt frei' ;
+
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 						
-						<h1><?php echo $ogTitle ?></h1>
-						<p><?php echo $description ?></p>
-										
-						<!-- <button class="md-trigger" data-modal="modal-1">mehr erfahen</button> -->
+						$description	 = 'Wir freuen uns auf Sie, am 8.2.2015, um 15 Uhr im Cafe Wagner <br>
+											zur Lesung und anschließender Stadtführung mit unserem Autor S. Ringel<br><br>
+											Eintritt frei!' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
+					<?php 
+						$endDate 		 = '15-02-2015';
+
+						$news 			 = "nein";
+						$img 			 = "ja";
+
+						$folderName		 = "valentin/";							
+
+						$ogTitle 		 = '14.02 - der Tag der Verliebten';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Celina und Ihr Team' ;
+
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. <br> 
+											Unsere Türen sind für Sie weit geöffnet. <br><br>
+											Wir freuen uns auf Sie. <br><br> 
+											Celina und Ihr Team' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '01-01-2016';
+
+						$news 			 = "ja";
+						$img 			 = "ja";
+
+						$folderName		 = "piroggen-tag/";
+
+						$ogTitle 		 = 'Jeden Freitag ist jetzt russischer Piroggen-Tag';					
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = '' ;
+
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = ' ' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+		
+
+
+					<?php
+						$endDate 		 = '01-01-2016';
+
+						$news 			 = "ja";
+						$img 			 = "nein";
+
+						$folderName		 = "";	
+
+						$ogTitle 		 = 'Powerfrauen-Abende';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für Powerfrauen' ;
+
+						$imgPost		 = '';
+						$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
+											<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
 						
-						<div>
-							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-						</div>
-					</div>
-				</div>
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
 
-				<div class="column">
-					<div class="content">
-						<?php
-							$news 			 = "ja";
-							$img 			 = "ja";
-
-							$folderName		 = "piroggen-tag/";
-
-							$ogTitle 		 = 'Jeden Freitag ist jetzt russischer Piroggen-Tag';					
-							$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
-							$ogDescription	 = '' ;
-
-							$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-							$description	 = ' ' ;
-						?>
-						<?php if ($news == "ja" ){ echo "<span class='news'>News</span>"; } ?>
-						<?php if ($img == "ja" ){ echo "<div class='txtC imgRound'><img src=". $imgPost ."></div>"; } ?>
-
-						<h1><?php echo $ogTitle ?></h1>
-						<p><?php echo $description ?></p>
-										
-						<div>
-							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="column">
-					<div class="content">
-						<?php
-							$news 			 = "ja";
-							$img 			 = "nein";
-
-							$folderName		 = "";	
-
-							$ogTitle 		 = 'Powerfrauen-Abende';
-							$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
-							$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für Powerfrauen' ;
-
-							$imgPost		 = '';
-							$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
-												<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
-						?>
-						<?php if ($news == "ja" ){ echo "<span class='news'>News</span>"; } ?>
-						<?php if ($img == "ja" ){ echo "<div class='txtC imgRound'><img src=". $imgPost ."></div>"; } ?>
-						
-						<h1><?php echo $ogTitle ?></h1>
-						<p><?php echo $description ?></p>
-										
-						<div>
-							<div class="fb-like" data-href="_news/share.php?title=<?php echo $ogTitle ?>&img=<?php echo $ogImg ?>&description=<?php echo $ogDescription?>" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-						</div>
-					</div>
-				</div>
 
 			</div>
 		</div><!-- /container -->
@@ -183,6 +220,28 @@
 			// this is important for IEs
 			var polyfilter_scriptpath = '/js/';
 		</script>
+		<script type="text/javascript">
+		function msnry() {
+		    var windowsize = $(window).width();
+		    if (windowsize > 790) {
+				setTimeout(function(){ 
+						var container = document.querySelector('#container');
+						var msnry = new Masonry( container, {
+						  // options
+						  columnWidth: 0,
+				  		  itemSelector: '.item'
+						});
+				}, 300);
+			}
+		}
+		msnry();
+
+	  	$(window).resize(function() {
+		    msnry();
+	  	});
+
+		</script>
+
 		<script src="js/cssParser.js"></script>
 		<script src="js/css-filters-polyfill.js"></script>
 	</body>
