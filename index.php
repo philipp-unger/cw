@@ -27,15 +27,24 @@
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
 
-	    <script>
-	        // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
-	        //     // Mobile Site auf dem Server
-	        //     window.location = "<?php echo $urlServer; ?>"
-	        // } else {
-	        //     // Desktop Facebook Tab
-	        //     window.location = "<?php echo $urlFBTab; ?>"
-	        // }
-    	</script>
+		<script>
+		  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
+		      if (window != window.top) {
+		          // If in iframe, redirect to standalone site
+
+		          // Mobile Site auf dem Server
+		          window.top.location = "<?php echo $urlServer ?>"
+		      }
+
+		  } else {
+		      if (window == window.top) {
+		          // If not in iframe, redirect to facebook app
+
+		          // Desktop Facebook Tab
+		          window.top.location = "<?php echo $urlFBTab ?>"
+		      }
+		  }
+		</script>
 	</head>
 	<body>
 		<script>
