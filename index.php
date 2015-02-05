@@ -120,9 +120,9 @@
 							$news 			 = "ja";
 							$img 			 = "ja";
 
-							$folderName		 = "pirogen-tag/";
+							$folderName		 = "piroggen-tag/";
 
-							$ogTitle 		 = 'Jeden Freitag ist jetzt russischer Pirogen-Tag';					
+							$ogTitle 		 = 'Jeden Freitag ist jetzt russischer Piroggen-Tag';					
 							$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
 							$ogDescription	 = '' ;
 
