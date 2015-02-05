@@ -122,7 +122,7 @@
 
 							$folderName		 = "pirogen-tag/";
 
-							$ogTitle 		 = 'Jeder Freitag ist jetzt russischer Pirogen-Tag';					
+							$ogTitle 		 = 'Jeden Freitag ist jetzt russischer Pirogen-Tag';					
 							$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
 							$ogDescription	 = '' ;
 
