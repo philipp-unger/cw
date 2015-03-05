@@ -114,7 +114,79 @@
 			</header>
 
 			<div id="container" class="main clearfix">
-	
+
+
+					<?php 
+						// $endDate 		 = '20-03-2015';
+
+						// $news 			 = "ja";
+						// $img 			 = "nein";
+
+						// $folderName		 = "";							
+
+						// $ogTitle 		 = 'Preis-Verleihung';
+						// $ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						// $ogDescription	 = 'Verleihung eine Schriftsteller-Preis an einen französischen Autor' ;
+
+
+						// $title 			 = 'Preis-Verleihung';
+						// $imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						
+						// $description	 = 'Mit vielen Überraschungen' ;
+
+						// if ( strtotime($mtf) <= strtotime($endDate) ) {
+						// 	include 'tpl.php';
+						// }
+					?>
+
+					<?php 
+						// $endDate 		 = '08-03-2015';
+
+						// $news 			 = "nein";
+						// $img 			 = "ja";
+
+						// $folderName		 = "Internationaler_frauentag";							
+
+						// $ogTitle 		 = 'Am 8. März ist Internationaler Frauentag';
+						// $ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						// $ogDescription	 = 'Lassen Sie sich am Tag der Tage, verwöhnen.' ;
+
+
+						// $title 			 = 'Internationaler Frauentag';
+						// $imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						
+						// $description	 = 'Mit vielen Überraschungen' ;
+
+						// if ( strtotime($mtf) <= strtotime($endDate) ) {
+						// 	include 'tpl.php';
+						// }
+					?>
+
+
+					<?php 
+						$endDate 		 = '08-03-2015';
+
+						$news 			 = "ja";
+						$img 			 = "nein";
+
+						$folderName		 = "";							
+
+						$ogTitle 		 = 'Vortrag über gesunde Ernährung';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'Heute Abend hält Claudia Schmidt im Café Wagner ein Vortrag über gesunde Ernährung. Eine Anmeldung zum Vortrag ist erwünscht.' ;
+
+
+						$title 			 = 'Vortrag über gesunde Ernährung';
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						
+						$description	 = 'Heute Abend hält Claudia Schmidt im Café Wagner ein Vortrag über gesunde Ernährung. <br><br>
+											Eine Anmeldung zum Vortrag ist erwünscht.' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
 
 					<?php 
 						$endDate 		 = '09-02-2015';
