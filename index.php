@@ -140,26 +140,31 @@
 					?>
 
 					<?php 
-						// $endDate 		 = '08-03-2015';
+						$endDate 		 = '10-03-2015';
 
-						// $news 			 = "nein";
-						// $img 			 = "ja";
+						$news 			 = "nein";
+						$img 			 = "ja";
 
-						// $folderName		 = "Internationaler_frauentag";							
+						$folderName		 = "internationaler_frauentag/";							
 
-						// $ogTitle 		 = 'Am 8. März ist Internationaler Frauentag';
-						// $ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
-						// $ogDescription	 = 'Lassen Sie sich am Tag der Tage, verwöhnen.' ;
+						$ogTitle 		 = 'Am 8. März ist Internationaler Frauentag';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'Lassen Sie sich am Tag der Tage, mit zahlreichen Überraschungen im Café Wagner verwöhnen.' ;
 
 
-						// $title 			 = 'Internationaler Frauentag';
-						// $imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$title 			 = 'Internationaler Frauentag im Café Wagner';
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 						
-						// $description	 = 'Mit vielen Überraschungen' ;
+						$description	 = 'Am 8. März ist Internationaler Frauentag. <br><br>
+											Das Café Wagner verwöhnt an diesem Tag besonders das sinnliche Geschlecht mit zahlreichen Überraschungen. <br><br>
+											Seien Sie gespannt. 
+											Unsere Türen sind für Sie weit geöffnet. <br><br>
+											Wir freuen uns auf Sie. <br><br> 
+											Celina und Ihr Team';
 
-						// if ( strtotime($mtf) <= strtotime($endDate) ) {
-						// 	include 'tpl.php';
-						// }
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
 					?>
 
 
