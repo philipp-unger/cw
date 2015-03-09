@@ -140,7 +140,7 @@
 					?>
 
 					<?php 
-						$endDate 		 = '20-03-2015';
+						$endDate 		 = '21-03-2015';
 
 						$news 			 = "nein";
 						$img 			 = "ja";
@@ -158,7 +158,7 @@
 						$description	 = 'Das „Café Wagner“ steht für Wohlgefühl – und für kulinarische und geistige Genüsse.<br><br>
 											Zur Leipziger Buchmesse wird auf dieser Grundlage ein schmackhaftes „Literarisches Leipziger Allerlei“ gereicht: 1.000 Jahre Leipzig haben Hunderte von großartigen Büchern über Leipzig hervorgebracht und gerade jüngst sind wieder reichlich Leckerbissen frisch erschienen. Über Leipzig an sich wie auch über besondere Schwerpunkte und Details.<br><br>
 											Der Autor und Moderator Holger Gemmer stellt am Freitag, den 13. März, von 19 bis etwa 20 Uhr köstlich unterhaltsam einige dieser neuen Titel vor. <br><br>
-											Genießen Sie mit. Bei freiem Eintritt.<br<br>
+											Genießen Sie mit.<br> Bei freiem Eintritt.<br><br>
 											Café Wagner | Freitag, 13. März 2015 | 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
