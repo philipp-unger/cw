@@ -115,24 +115,48 @@
 
 			<div id="container" class="main clearfix">
 
-
 					<?php 
-						// $endDate 		 = '20-03-2015';
+						// $endDate 		 = '17-03-2015';
 
 						// $news 			 = "ja";
 						// $img 			 = "nein";
 
 						// $folderName		 = "";							
 
-						// $ogTitle 		 = 'Preis-Verleihung';
+						// $ogTitle 		 = 'Lesung – Dr. Reiner Tetzner';
 						// $ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
-						// $ogDescription	 = 'Verleihung eine Schriftsteller-Preis an einen französischen Autor' ;
+						// $ogDescription	 = 'Am 14.03 | Lesung im Café Wagner – Dr. Reiner Tetzner'' ;
 
 
-						// $title 			 = 'Preis-Verleihung';
+						// $title 			 = 'Lesung – Dr. Reiner Tetzner';
 						// $imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 						
-						// $description	 = 'Mit vielen Überraschungen' ;
+						// $description	 = 'Im Café Wagner findet am 15.03 eine Lesung von Dr. Reiner Tetzner statt.' ;
+
+						// if ( strtotime($mtf) <= strtotime($endDate) ) {
+						// 	include 'tpl.php';
+						// }
+					?>			
+
+					<?php 
+						// $endDate 		 = '16-03-2015';
+
+						// $news 			 = "ja";
+						// $img 			 = "nein";
+
+						// $folderName		 = "";							
+
+						// $ogTitle 		 = 'Lesung – Christiane Maria Fischer';
+						// $ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						// $ogDescription	 = 'Am 14.03 | Lesung im Café Wagner – Christiane Maria Fischer' ;
+
+
+						// $title 			 = 'Lesung – Christiane Maria Fischer';
+						// $imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						
+						// $description	 = 'Am 14.03 findet im Café Wagner eine Lesung von Christiane Maria Fischer statt.<br><br>
+						// 					Wir freuen uns auf Sie. <br><br> 
+						// 					Celina und Ihr Team' ;
 
 						// if ( strtotime($mtf) <= strtotime($endDate) ) {
 						// 	include 'tpl.php';
@@ -140,7 +164,32 @@
 					?>
 
 					<?php 
-						$endDate 		 = '21-03-2015';
+						$endDate 		 = '14-03-2015';
+
+						$news 			 = "ja";
+						$img 			 = "nein";
+
+						$folderName		 = "";							
+
+						$ogTitle 		 = 'Preis-Verleihung';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'Am 12.03 | Verleihung eines Schriftsteller-Preises an einen französischen Autor. Ab 19 Uhr – Geschlossene Gesellschaft.' ;
+
+
+						$title 			 = 'Preis-Verleihung';
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						
+						$description	 = 'Verleihung eines Schriftsteller-Preises an einen französischen Autor.<br><br>
+											Am 12.03 im Café Wagner <br><br>
+											Ab 19 Uhr – Geschlossene Gesellschaft' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
+					<?php 
+						$endDate 		 = '15-03-2015';
 
 						$news 			 = "nein";
 						$img 			 = "ja";
