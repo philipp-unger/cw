@@ -33,22 +33,22 @@
 		<script src="js/plugin.js"></script>
 
 		<script>
-		  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
-		      if (window != window.top) {
-		          // If in iframe, redirect to standalone site
+		  // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
+		  //     if (window != window.top) {
+		  //         // If in iframe, redirect to standalone site
 
-		          // Mobile Site auf dem Server
-		          window.top.location = "<?php echo $urlServer ?>"
-		      }
+		  //         // Mobile Site auf dem Server
+		  //         window.top.location = "<?php echo $urlServer ?>"
+		  //     }
 
-		  } else {
-		      if (window == window.top) {
-		          // If not in iframe, redirect to facebook app
+		  // } else {
+		  //     if (window == window.top) {
+		  //         // If not in iframe, redirect to facebook app
 
-		          // Desktop Facebook Tab
-		          window.top.location = "<?php echo $urlFBTab ?>"
-		      }
-		  }
+		  //         // Desktop Facebook Tab
+		  //         window.top.location = "<?php echo $urlFBTab ?>"
+		  //     }
+		  // }
 
 		</script>
 		
@@ -141,6 +141,36 @@
 						// 	include 'tpl.php';
 						// }
 					?>
+
+
+					<?php 
+						$endDate 		 = '15-04-2015';
+
+						$news 			 = "nein";
+						$img 			 = "ja";
+
+						$folderName		 = "lesung_passoras-gold";							
+
+						$ogTitle 		 = 'Lesung - Paßoras GOLD';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'Café Wagner | Freitag, 13. März 2015 | 19 Uhr' ;
+
+
+						$title 			 = 'Lesung - LITERARISCHES LEIPZIGER ALLERLEI';
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						
+						$description	 = 'Das „Café Wagner“ steht für Wohlgefühl – und für kulinarische und geistige Genüsse.<br><br>
+											Bezaubernd geht es am 11.04.2015 um 19 Uhr weiter. <br>
+											Unsere zweite Lesebühne öffnet ihre Türen für Euch. <br>
+											Ganz im Sinne des Literatursalons suchen auch wir für weitere Projekte Literaten, Künstler und 
+											Musiker mit eigenen Texten und Musikkreationen die eine gute Werbeoption nutzen möchten. <br><br>
+											Einmal im Monat laden wir, unter anderem dann im Cafe Café Wagner & Celina Kutylo zu selbst verfassten Präsentationen ein und freuen uns auf Paßoras GOLD.<br><br>
+											Café Wagner | Samstag, 11. April 2015 | 19 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>		
 
 					<?php 
 						$endDate 		 = '15-03-2015';
