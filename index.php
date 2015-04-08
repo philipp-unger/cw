@@ -165,7 +165,9 @@
 											Ganz im Sinne des Literatursalons suchen auch wir für weitere Projekte Literaten, Künstler und 
 											Musiker mit eigenen Texten und Musikkreationen die eine gute Werbeoption nutzen möchten. <br><br>
 											Einmal im Monat laden wir, unter anderem dann im Cafe Café Wagner & Celina Kutylo zu selbst verfassten Präsentationen ein und freuen uns auf Paßoras GOLD.<br><br>
-											Café Wagner | Samstag, 11. April 2015 | 19 Uhr' ;
+											Café Wagner  <br> 
+											Samstag, 11. April 2015<br>
+											ab 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
 							include 'tpl.php';
