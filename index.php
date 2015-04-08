@@ -33,22 +33,22 @@
 		<script src="js/plugin.js"></script>
 
 		<script>
-		  // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
-		  //     if (window != window.top) {
-		  //         // If in iframe, redirect to standalone site
+		  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)  ){
+		      if (window != window.top) {
+		          // If in iframe, redirect to standalone site
 
-		  //         // Mobile Site auf dem Server
-		  //         window.top.location = "<?php echo $urlServer ?>"
-		  //     }
+		          // Mobile Site auf dem Server
+		          window.top.location = "<?php echo $urlServer ?>"
+		      }
 
-		  // } else {
-		  //     if (window == window.top) {
-		  //         // If not in iframe, redirect to facebook app
+		  } else {
+		      if (window == window.top) {
+		          // If not in iframe, redirect to facebook app
 
-		  //         // Desktop Facebook Tab
-		  //         window.top.location = "<?php echo $urlFBTab ?>"
-		  //     }
-		  // }
+		          // Desktop Facebook Tab
+		          window.top.location = "<?php echo $urlFBTab ?>"
+		      }
+		  }
 
 		</script>
 		
@@ -153,7 +153,7 @@
 
 						$ogTitle 		 = 'Lesung - Paßoras GOLD';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
-						$ogDescription	 = 'Café Wagner | Freitag, 13. März 2015 | 19 Uhr' ;
+						$ogDescription	 = 'Bezaubernd geht es am 11.04.2015 um 19 Uhr weiter. Café Wagner | Freitag, 13. März 2015 | 19 Uhr' ;
 
 
 						$title 			 = 'Lesung - LITERARISCHES LEIPZIGER ALLERLEI';
