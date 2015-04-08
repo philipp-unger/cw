@@ -149,7 +149,7 @@
 						$news 			 = "nein";
 						$img 			 = "ja";
 
-						$folderName		 = "lesung_passoras-gold";							
+						$folderName		 = "lesung_passoras-gold/";							
 
 						$ogTitle 		 = 'Lesung - Paßoras GOLD';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
