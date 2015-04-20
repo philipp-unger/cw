@@ -28,6 +28,7 @@ body {
 a {
 	color: #CB1719;
 	text-decoration: none;
+    word-wrap: break-word;
 }
 
 a:hover,
