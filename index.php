@@ -142,6 +142,43 @@
 						// }
 					?>
 
+					<?php 
+						$endDate 		 = '31-05-2015';
+
+						$news 			 = "nein";
+						$img 			 = "ja";
+
+						$folderName		 = "richard_wagner_genusswochenende/";							
+
+						$ogTitle 		 = 'Richard Wagner Genusswochenende';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'Seien Sie Teil von etwas Großem – Opernabend »Die Walküre« und »Zu Gast bei Wagners« | Freitag, 29. Mai 2015 | ab 22 Uhr' ;
+
+
+						$title 			 = 'Richard Wagner Genusswochenende';
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						
+						$description	 = 'Seien Sie Teil von etwas Großem – <br>Opernabend »Die Walküre« und »Zu Gast bei Wagners«<br><br>
+											
+											Anmeldung unter <a target="_blank" href="http://www.porzellanundglasdesign.de/68-0-Anmeldung.html">http://www.porzellanundglasdesign.de/68-0-Anmeldung.html</a> <br> <br> 
+
+											Nach der Vorstellung bringt Sie ein Shuttle zum Café Restaurant Wagner, wo Celina Kutylo eine
+											stimmungsvolle Hommage an den großen Komponisten schuf. Nach einer Führung
+											durch die Ausstellung der Leipziger Malerin Jeannette PietrowskiSiefke
+											erleben Sie in einem Lichtermeer auf dem Richard-Wagner-
+											Platz Kurioses aus dem Leben des Dichterkomponisten, erzählt von Wagner-Autorin Ursula Oehmeund
+											Thomas Krakow, Präsident des Richard-Wagner-Verbandes International. Eine Tanz- und
+											Feuershow der Feuerfünkchen Company beschließt den Abend.<br><br>
+											
+											Café Wagner  <br> 
+											Freitag, 29. Mai 2015<br>
+											ab 22 Uhr <br><br>
+											Quelle: <a target="_blank" href="https://www.xing.com/events/wagner-salondinner-leipzig-1534458">https://www.xing.com/events/wagner-salondinner-leipzig-1534458</a>' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>	
 
 					<?php 
 						$endDate 		 = '15-04-2015';
