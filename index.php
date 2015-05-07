@@ -142,6 +142,40 @@
 						// }
 					?>
 
+
+					<?php 
+						$endDate 		 = '12-05-2015';
+
+						$news 			 = "nein";
+						$img 			 = "ja";
+
+						$folderName		 = "schriftsteller_salon/";							
+
+						$ogTitle 		 = 'Schriftsteller–Salon';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
+						$ogDescription	 = 'Junge Talente & interessante Schriftsteller »meets« Café Wagner | Samstag, 09. Mai 2015 | ab 19 Uhr' ;
+
+
+						$title 			 =  $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						
+						$description	 = 'Junge Talente & interessante Schriftsteller »meets« Café Wagner <br><br>
+											
+											Nächste Treffen:
+											Samstag, 09. Mai 2015<br>
+											ab 19 Uhr <br> 
+											Café Wagner<br><br>
+
+											<a style="color:#3B5998; text-decoration: underline;" target="_blank" href="https://www.facebook.com/events/720557544724542/">Zum Event</a> 
+
+											<br><br>';
+
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>	
+
 					<?php 
 						$endDate 		 = '31-05-2015';
 
