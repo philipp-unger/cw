@@ -153,7 +153,7 @@
 
 						$ogTitle 		 = 'Schriftsteller–Salon';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';						
-						$ogDescription	 = 'Junge Talente & interessante Schriftsteller »meets« Café Wagner | Samstag, 09. Mai 2015 | ab 19 Uhr' ;
+						$ogDescription	 = 'Junge Talente und interessante Schriftsteller »meets« Café Wagner | Samstag, 09. Mai 2015 | ab 19 Uhr' ;
 
 
 						$title 			 =  $ogTitle;
