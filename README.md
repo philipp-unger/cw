@@ -1,3 +1,3 @@
-Café Wagner Event & News Facebook Interaction
+CW Event & News Facebook Interaction
 
 
