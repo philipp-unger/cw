@@ -426,7 +426,7 @@
 
 
 					<?php
-						$endDate 		 = '01-01-2017';
+						$endDate 		 = '01-01-2016';
 
 						$news 			 = "ja";
 						$img 			 = "ja";
