@@ -1,5 +1,5 @@
 <?php
-	$appActive 	= false;
+	$appActive 	= true;
     $urlServer 	= "https://cw-event.herokuapp.com/";
     $urlFBTab 	= "https://www.facebook.com/pages/Celina-Kutylo/319744648215049?sk=app_710765662369464";
 
