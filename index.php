@@ -1,5 +1,5 @@
 <?php
-	$appActive 	= true;
+	$appActive 	= false;
     $urlServer 	= "https://cw-event.herokuapp.com/";
     $urlFBTab 	= "https://www.facebook.com/pages/Celina-Kutylo/319744648215049?sk=app_710765662369464";
 
@@ -454,9 +454,9 @@
 						$news 			 = "nein";
 						$img 			 = "nein";
 
-						$folderName		 = "lesung-lerchenkuesse/";
+						$folderName		 = "";
 
-						$ogTitle 		 = 'Lesung Lerchenkuesse';
+						$ogTitle 		 = 'Lesung Lerchenküsse';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
 						$ogDescription	 = '' ;
 
@@ -478,7 +478,7 @@
 						$news 			 = "nein";
 						$img 			 = "nein";
 
-						$folderName		 = "genn-sie-saechssch/";
+						$folderName		 = "";
 
 						$ogTitle 		 = 'Genn Sie sächs&apos;sch?';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
@@ -504,7 +504,7 @@
 						$news 			 = "nein";
 						$img 			 = "nein";
 
-						$folderName		 = "oktoberfest/";
+						$folderName		 = "";
 
 						$ogTitle 		 = 'Oktoberfest im Cafe Wagner';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
@@ -530,7 +530,7 @@
 						$news 			 = "nein";
 						$img 			 = "nein";
 
-						$folderName		 = "genn-sie-saechssch/";
+						$folderName		 = "";
 
 						$ogTitle 		 = 'Genn Sie sächs&apos;sch?';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
@@ -556,7 +556,7 @@
 						$news 			 = "nein";
 						$img 			 = "nein";
 
-						$folderName		 = "genn-sie-saechssch/";
+						$folderName		 = "";
 
 						$ogTitle 		 = 'Genn Sie sächs&apos;sch?';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
@@ -582,7 +582,7 @@
 						$news 			 = "nein";
 						$img 			 = "nein";
 
-						$folderName		 = "weihnachtsfeier/";
+						$folderName		 = "";
 
 						$ogTitle 		 = 'Weihnachtsfeier im Cafe Wagner';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
