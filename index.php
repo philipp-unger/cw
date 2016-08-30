@@ -427,50 +427,6 @@
 					?>
 
 					<?php
-						$endDate 		 = '03-01-2017';
-
-						$news 			 = "ja";
-						$img 			 = "nein";
-
-						$folderName		 = "";
-
-						$ogTitle 		 = 'Mit Champagner-Frühstück ins neue Jahr';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = '' ;
-
-						$title 			 = $ogTitle;
-						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">2. Januar 2017</span><br />
-											Ort: Café Wagner<br />
-											Beginn: 9 Uhr' ;
-
-						if ( strtotime($mtf) <= strtotime($endDate) ) {
-							include 'tpl.php';
-						}
-					?>
-
-					<?php
-						$endDate 		 = '02-01-2017';
-
-						$news 			 = "ja";
-						$img 			 = "nein";
-
-						$folderName		 = "";
-
-						$ogTitle 		 = 'Neujahr';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = '' ;
-
-						$title 			 = $ogTitle;
-						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">1. Januar 2017</span><br />
-											Ruhetag' ;
-
-						if ( strtotime($mtf) <= strtotime($endDate) ) {
-							include 'tpl.php';
-						}
-					?>
-					<?php
 						$endDate 		 = '01-01-2017';
 
 						$news 			 = "ja";
@@ -478,17 +434,14 @@
 
 						$folderName		 = "";
 
-						$ogTitle 		 = 'Silvester im Cafe Wagner';
+						$ogTitle 		 = 'Powerfrauen-Abende';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = '' ;
+						$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für Powerfrauen' ;
 
 						$title 			 = $ogTitle;
-						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">31. Dezember 2016</span><br />
-											mit Live-Musik, Kaviar & Champagner<br />
-											Tanzfläche für 500 Leute<br /><br />
-											Ort: Café Wagner<br />
-											Beginn: 19 Uhr' ;
+						$imgPost		 = '';
+						$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
+											<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
 							include 'tpl.php';
@@ -496,69 +449,75 @@
 					?>
 
 					<?php
-						$endDate 		 = '27-12-2016';
-
-						$news 			 = "ja";
-						$img 			 = "nein";
-
-						$folderName		 = "";
-
-						$ogTitle 		 = 'Öffnungszeiten <br />Weihnachtsfeier-<br />tage';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = '' ;
-
-						$title 			 = $ogTitle;
-						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">25. und 26. Dezember 2016</span><br />
-											von 11 Uhr bis 21 Uhr' ;
-
-						if ( strtotime($mtf) <= strtotime($endDate) ) {
-							include 'tpl.php';
-						}
-					?>
-
-					<?php
-						$endDate 		 = '25-12-2016';
-
-						$news 			 = "ja";
-						$img 			 = "nein";
-
-						$folderName		 = "";
-
-						$ogTitle 		 = 'Öffnungszeiten <br />am Heiligabend';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = '' ;
-
-						$title 			 = $ogTitle;
-						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">24. Dezember 2016</span><br />
-											von 9 Uhr bis 18 Uhr' ;
-
-						if ( strtotime($mtf) <= strtotime($endDate) ) {
-							include 'tpl.php';
-						}
-					?>
-
-
-					<?php
-						$endDate 		 = '17-12-2016';
+						$endDate 		 = '06-09-2016';
 
 						$news 			 = "nein";
 						$img 			 = "nein";
 
-						$folderName		 = "weihnachtsfeier/";
+						$folderName		 = "lesung-lerchenkuesse/";
 
-						$ogTitle 		 = 'Weihnachtsfeier im Cafe Wagner';
+						$ogTitle 		 = 'Lesung Lerchenkuesse';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
 						$ogDescription	 = '' ;
 
 						$title 			 = $ogTitle;
 						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">16. Dezember 2016</span><br />
-											Für Gäste und Friends.<br />
-											Mit echtem Weihnachtsmann<br /><br />
+						$description	 = '<span class="time">5. September 2016</span><br />
+											Heiter spritziger Liebesroman mit Leipzig-Flair<br><br>
 											Ort: Café Wagner<br />
 											Beginn: 19 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '26-09-2016';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "genn-sie-saechssch/";
+
+						$ogTitle 		 = 'Genn Sie sächs&apos;sch?';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">25. September 2016</span><br />
+											Sächs&apos;scher Gaffeeglatsch weil dr Sachse de Geschmiedlichgeet liebt <br><br>
+											Genießen Sie Bei einem "Scheelchen Heeßen" einen Nachmittag mitt sächsischer Mundart.<br><br>
+											Es erwartet Sie eine Mischung aus Kabarett, Lesung und Humor.<br><br>
+											Ort: Café Wagner<br />
+											Beginn: 16 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '22-10-2016';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "oktoberfest/";
+
+						$ogTitle 		 = 'Oktoberfest im Cafe Wagner';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">21. Oktober 2016</span><br />
+											Weißwurst + Weißbier + Tanzparkett + Champagner<br /><br />
+											Weitere Informationen folgen.<br /><br />
+											Ort: Café Wagner<br />
+											Beginn: 19 Uhr <br />
+											Ende: ca. 5 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
 							include 'tpl.php';
@@ -618,74 +577,22 @@
 					?>
 
 					<?php
-						$endDate 		 = '22-10-2016';
+						$endDate 		 = '17-12-2016';
 
 						$news 			 = "nein";
 						$img 			 = "nein";
 
-						$folderName		 = "oktoberfest/";
+						$folderName		 = "weihnachtsfeier/";
 
-						$ogTitle 		 = 'Oktoberfest im Cafe Wagner';
+						$ogTitle 		 = 'Weihnachtsfeier im Cafe Wagner';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
 						$ogDescription	 = '' ;
 
 						$title 			 = $ogTitle;
 						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">21. Oktober 2016</span><br />
-											Weißwurst + Weißbier + Tanzparkett + Champagner<br /><br />
-											Weitere Informationen folgen.<br /><br />
-											Ort: Café Wagner<br />
-											Beginn: 19 Uhr <br />
-											Ende: ca. 5 Uhr' ;
-
-						if ( strtotime($mtf) <= strtotime($endDate) ) {
-							include 'tpl.php';
-						}
-					?>
-
-
-					<?php
-						$endDate 		 = '26-09-2016';
-
-						$news 			 = "nein";
-						$img 			 = "nein";
-
-						$folderName		 = "genn-sie-saechssch/";
-
-						$ogTitle 		 = 'Genn Sie sächs&apos;sch?';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = '' ;
-
-						$title 			 = $ogTitle;
-						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">25. September 2016</span><br />
-											Sächs&apos;scher Gaffeeglatsch weil dr Sachse de Geschmiedlichgeet liebt <br><br>
-											Genießen Sie Bei einem "Scheelchen Heeßen" einen Nachmittag mitt sächsischer Mundart.<br><br>
-											Es erwartet Sie eine Mischung aus Kabarett, Lesung und Humor.<br><br>
-											Ort: Café Wagner<br />
-											Beginn: 16 Uhr' ;
-
-						if ( strtotime($mtf) <= strtotime($endDate) ) {
-							include 'tpl.php';
-						}
-					?>
-
-					<?php
-						$endDate 		 = '06-09-2016';
-
-						$news 			 = "nein";
-						$img 			 = "nein";
-
-						$folderName		 = "lesung-lerchenkuesse/";
-
-						$ogTitle 		 = 'Lesung Lerchenkuesse';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = '' ;
-
-						$title 			 = $ogTitle;
-						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">5. September 2016</span><br />
-											Heiter spritziger Liebesroman mit Leipzig-Flair<br><br>
+						$description	 = '<span class="time">16. Dezember 2016</span><br />
+											Für Gäste und Friends.<br />
+											Mit echtem Weihnachtsmann<br /><br />
 											Ort: Café Wagner<br />
 											Beginn: 19 Uhr' ;
 
@@ -694,7 +601,49 @@
 						}
 					?>
 
+					<?php
+						$endDate 		 = '25-12-2016';
 
+						$news 			 = "ja";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Öffnungszeiten <br />am Heiligabend';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">24. Dezember 2016</span><br />
+											von 9 Uhr bis 18 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '27-12-2016';
+
+						$news 			 = "ja";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Öffnungszeiten <br />Weihnachtsfeier-<br />tage';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">25. und 26. Dezember 2016</span><br />
+											von 11 Uhr bis 21 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
 
 					<?php
 						$endDate 		 = '01-01-2017';
@@ -704,19 +653,69 @@
 
 						$folderName		 = "";
 
-						$ogTitle 		 = 'Powerfrauen-Abende';
+						$ogTitle 		 = 'Silvester im Cafe Wagner';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für Powerfrauen' ;
+						$ogDescription	 = '' ;
 
 						$title 			 = $ogTitle;
-						$imgPost		 = '';
-						$description	 = 'In regelmäßigen Abständen veranstaltet das Café Wagner exklusive Abende für "Powerfrauen" <br><br>
-											<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">31. Dezember 2016</span><br />
+											mit Live-Musik, Kaviar & Champagner<br />
+											Tanzfläche für 500 Leute<br /><br />
+											Ort: Café Wagner<br />
+											Beginn: 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
 							include 'tpl.php';
 						}
 					?>
+
+
+					<?php
+						$endDate 		 = '02-01-2017';
+
+						$news 			 = "ja";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Neujahr';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">1. Januar 2017</span><br />
+											Ruhetag' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '03-01-2017';
+
+						$news 			 = "ja";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Mit Champagner-Frühstück ins neue Jahr';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">2. Januar 2017</span><br />
+											Ort: Café Wagner<br />
+											Beginn: 9 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
 
 
 			</div>
