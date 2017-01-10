@@ -785,8 +785,8 @@
 						<a href="https://www.facebook.com/events/172861663191702/" target="_blank">
 						https://www.facebook.com/events/172861663191702/
 						</a><br /><br />
-						Ort: Café Wagner<br /><br />
-						Beginn:  19 Uhr' ;
+						Ort: Café Wagner<br />
+						Beginn: ab 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
 							$style = '';
