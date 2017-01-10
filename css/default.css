@@ -274,3 +274,15 @@ button:hover {
 	}
 
 }
+
+
+.inlinelist {
+	font-weight: 300;
+    font-size: 1.3em;
+    padding: 0;
+    margin: 0;
+	margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 20px;
+}

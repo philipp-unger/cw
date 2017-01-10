@@ -140,6 +140,7 @@
 						// 					Ab 19 Uhr – Geschlossene Gesellschaft' ;
 
 						// if ( strtotime($mtf) <= strtotime($endDate) ) {
+						$style = '';
 						// 	include 'tpl.php';
 						// }
 					?>
@@ -174,6 +175,7 @@
 
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -212,6 +214,7 @@
 											Quelle: <a target="_blank" href="https://www.xing.com/events/wagner-salondinner-leipzig-1534458">https://www.xing.com/events/wagner-salondinner-leipzig-1534458</a>' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -243,6 +246,7 @@
 											ab 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -270,6 +274,7 @@
 											Café Wagner | Freitag, 13. März 2015 | 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -294,6 +299,7 @@
 						$description	 = 'Im Café Wagner findet am 15.03 eine Lesung von Dr. Reiner Tetzner statt.' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -319,6 +325,7 @@
 											Celina und Ihr Team' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -347,6 +354,7 @@
 											Celina und Ihr Team';
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -372,6 +380,7 @@
 											Eine Anmeldung zum Vortrag ist erwünscht.' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -398,6 +407,7 @@
 											Eintritt frei!' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -422,6 +432,7 @@
 											Celina und Ihr Team' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -444,6 +455,7 @@
 											<span class="little">* Die Teilnehmer erhalten immer eine persönliche Einladung & somit nur Zutritt zur geschlossenen Veranstaltung</span>' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -468,6 +480,7 @@
 											Beginn: 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -494,6 +507,7 @@
 											Beginn: 16 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -520,6 +534,7 @@
 											Ende: ca. 5 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -546,6 +561,7 @@
 											Beginn: 16 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -572,6 +588,7 @@
 											Beginn: 16 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -597,6 +614,7 @@
 											Beginn: 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -619,6 +637,7 @@
 											von 9 Uhr bis 18 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -641,6 +660,7 @@
 											von 11 Uhr bis 21 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -666,6 +686,7 @@
 											Beginn: 19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -689,6 +710,7 @@
 											Ruhetag' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -712,6 +734,7 @@
 											Beginn: 9 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
@@ -736,10 +759,497 @@
 											Beginn: ab 8 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
 							include 'tpl.php';
 						}
 					?>
 
+
+					<?php
+						$endDate 		 = '12-01-2018';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Wiederholungstäter Powerfrauen-Abende';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+						$title 			 = 'Wiederholungs-täter Powerfrauen-Abende';
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">ab Februar - jeden Tag</span><br />
+											Ort: Café Wagner<br />
+											Beginn: ab 8 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '15-02-2017';
+
+						$news 			 = "nein";
+						$img 			 = "ja";
+
+						$folderName		 = "valentin/";
+
+						$ogTitle 		 = '14.02 - der Tag der Verliebten';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. 3 Gänge Menü inklusive Liebeselixier als Begrüßungsdrink. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Beginn: ab 18 Uhr. Celina und Ihr Team' ;
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine
+											besondere Überraschung. <br>
+											3 Gänge Menü inklusive Liebeselixier als Begrüßungsdrink<br /><br />
+											Unsere Türen sind für Sie weit geöffnet. <br><br>
+											Wir freuen uns auf Sie. <br>
+											Celina und Ihr Team<br /><br>
+											Ort: Café Wagner<br />
+											Beginn: ab 18 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '09-03-2017';
+
+						$news 			 = "nein";
+						$img 			 = "ja";
+
+						$folderName		 = "internationaler_frauentag/";
+
+						$ogTitle 		 = 'Am 8. März ist Internationaler Frauentag';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Lassen Sie sich am Tag der Tage, mit zahlreichen Überraschungen im Café Wagner verwöhnen.' ;
+
+
+						$title 			 = 'Internationaler Frauentag im Café Wagner';
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = 'Am 8. März ist Internationaler Frauentag. <br><br>
+											Das Café Wagner verwöhnt an diesem Tag besonders das sinnliche Geschlecht mit zahlreichen Überraschungen.
+											</p>
+											<ul class="inlinelist">
+												<li>neuste Make-up-Trends 2017</li>
+												<li>Wahrsagerin</li>
+												<li>exklusive private Handmassage</li>
+											</ul>
+											<p>
+											Seien Sie gespannt.
+											Unsere Türen sind für Sie weit geöffnet. <br><br>
+											Wir freuen uns auf Sie. <br><br>
+											Celina und Ihr Team';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '27-03-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Leipziger Buchmesse auch in ihrem Café Wagner';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Jeden Tag eine Lesung! Immer ab 19 Uhr' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">23. - 26. März 2017</span> <br />Jeden Tag eine Lesung! <br />Immer ab 19 Uhr';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '18-04-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Ostern im Café Wagner';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '16. und 17. April 2017 | Kuchen-Torten-Festival. Jeden Tag zwischen 10 und 18 Uhr.' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">16. und 17. April 2017</span><br />
+						Kuchen-Torten-Festival. <br /><br />Jeden Tag zwischen 10 und 18 Uhr.';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '01-05-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Tanz in den Mai';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '30. April 2017 | Powerfrauen-Abend unter den Motto Hexentreff.' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">30. April 2017</span><br />
+						Powerfrauen-Abend unter den Motto Hexentreff.<br /><br />
+						<b>Neue Bilderausstellung:</b><br />
+						Verabschiedung der Ausstellung Manfred von Kühnemund<br />
+						Willkommen heißen der neuen Ausstellung von Sebastian Lüksch
+						';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '07-05-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Honky Tonk Leipzig';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Wir sind wieder mit dabei.' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">06. Mai 2017</span><br />
+						Wir sind wieder mit dabei.<br />
+						Weitere Informationen folgen.';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '15-05-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Muttertag im Café Wagner';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Den ganzen Tag über - viele Überraschungen für die liebe Mutter.' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">14. Mai 2017</span><br />
+						Den ganzen Tag über - viele Überraschungen für die liebe Mutter.';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '23-05-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Wagner Geburtstag';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Mit großer Kuchen-Tortentafel | ab 14 Uhr' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">22. Mai 2017</span><br />
+						Mit großer Kuchen-Tortentafel<br /><br />
+						Beginn ist ab 14 Uhr';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '26-05-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Himmelfahrt / Vatertag';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Special Deal: Bestell 10 Bier und Du bekommst eine 1 runde Wodka aufs Haus.' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">25. Mai 2017</span><br />
+						<b>Special Deal:</b> <br />Bestell 10 Bier und Du bekommst eine 1 runde Wodka aufs Haus.';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '29-05-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Luther Tage';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Weiter Informationen folgen.' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">25. - 28. Mai 2017</span><br />
+						Weiter Informationen folgen.';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '05-06-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Gothik-Treffpunkt-Delux';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'ab 20 Uhr' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">4. und 05. Juni 2017</span><br />
+						ab 20 Uhr';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = 'color: white; background: black;';
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '06-06-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'WGT Spezial';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'Jeden Tag neue Überraschungen.' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">4. und 05. Juni 2017</span><br />
+						Jeden Tag neue Überraschungen.';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = 'color: white; background: black;';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '03-07-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Wagner Festtage';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">28. Juni - 2. Juli 2017</span>';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '19-08-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Sommerparty im Café Wagner';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">18. August 2017</span> <br />
+						Halten Sie sich schon mal diesen Termin frei. <br />
+						Viele Überraschungen warten auf Sie. <br /><br />
+						Weitere Informationen folgen.';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '20-10-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Oktoberfest im Café Wagner';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = "O'zapft is | Beginn ist ab 18 Uhr.";
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = "<span class='time'>20. Oktober 2017</span> <br />
+						O'zapft is.<br /><br />
+						Beginn ist ab 18 Uhr.";
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+
+					<?php
+						$endDate 		 = '16-12-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Weihnachtsfeier im Café Wagner';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = "Alle Jahre wieder. | Beginn ist ab 20 Uhr.";
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = "<span class='time'>15. Dezember 2017</span> <br />
+						Alle Jahre wieder.<br /><br />
+						Beginn ist ab 20 Uhr.";
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
+					<?php
+						$endDate 		 = '01-01-2018';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Silvester im Café Wagner';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = "Konzert mit festlichen 3 Gänge Menü und Champagner | Vorbestellung telefonisch oder direkt im Café Wagner";
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">31. Dezember 2017</span> <br />
+						Konzert mit festlichen 3 Gänge Menü und Champagner<br /><br />
+						Sichern Sie sich ihre Plätze rechzeitig<br />
+						Vorbestellung telefonisch (<a href="tel:034199994948">0341 99 99 49 48</a>) oder direkt im Café Wagner.';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
 
 
 			</div>
