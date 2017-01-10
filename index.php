@@ -717,6 +717,30 @@
 					?>
 
 
+					<?php
+						$endDate 		 = '03-01-2018';
+
+						$news 			 = "ja";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'NEU: Business-Frühstück';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = '' ;
+
+						$title 			 = 'NEU: <br /> Business-Frühstück';
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+						$description	 = '<span class="time">ab Februar - jeden Tag</span><br />
+											Ort: Café Wagner<br />
+											Beginn: ab 8 Uhr' ;
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							include 'tpl.php';
+						}
+					?>
+
+
 
 			</div>
 		</div><!-- /container -->
