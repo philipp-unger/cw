@@ -775,13 +775,18 @@
 
 						$ogTitle 		 = 'Wiederholungstäter Powerfrauen-Abende';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = '' ;
+						$ogDescription	 = 'Powerfrauen Workshop' ;
 
 						$title 			 = 'Wiederholungs-täter Powerfrauen-Abende';
 						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-						$description	 = '<span class="time">ab Februar - jeden Tag</span><br />
-											Ort: Café Wagner<br />
-											Beginn: ab 8 Uhr' ;
+						$description	 = '
+						<span class="time">11. Januar 2017</span> <br />
+						Weitere Informationen hier:<br />
+						<a href="https://www.facebook.com/events/172861663191702/" target="_blank">
+						https://www.facebook.com/events/172861663191702/
+						</a><br /><br />
+						Ort: Café Wagner<br /><br />
+						Beginn:  19 Uhr' ;
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
 							$style = '';
