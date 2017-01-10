@@ -286,3 +286,8 @@ button:hover {
     line-height: 1.5;
     padding-left: 20px;
 }
+
+.legal {
+	margin: 50px 0 100px;
+	text-align: center;
+}

@@ -1250,8 +1250,9 @@
 							include 'tpl.php';
 						}
 					?>
-
-
+			</div>
+			<div class="legal">
+				Etwaige Änderungen und Irrtümer sind vorbehalten.
 			</div>
 		</div><!-- /container -->
 		<div class="md-overlay"></div><!-- the overlay element -->
