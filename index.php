@@ -1079,7 +1079,7 @@
 
 						$folderName		 = "";
 
-						$ogTitle 		 = 'Gothik-Treffpunkt-Delux';
+						$ogTitle 		 = 'Gothik-Treffpunkt-Deluxe';
 						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
 						$ogDescription	 = 'ab 20 Uhr' ;
 
