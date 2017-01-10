@@ -1071,30 +1071,6 @@
 						}
 					?>
 
-					<?php
-						$endDate 		 = '05-06-2017';
-
-						$news 			 = "nein";
-						$img 			 = "nein";
-
-						$folderName		 = "";
-
-						$ogTitle 		 = 'Gothik-Treffpunkt-Deluxe';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
-						$ogDescription	 = 'ab 20 Uhr' ;
-
-
-						$title 			 = $ogTitle;
-						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
-
-						$description	 = '<span class="time">4. und 05. Juni 2017</span><br />
-						ab 20 Uhr';
-
-						if ( strtotime($mtf) <= strtotime($endDate) ) {
-							$style = 'color: white; background: black;';
-							include 'tpl.php';
-						}
-					?>
 
 					<?php
 						$endDate 		 = '06-06-2017';
@@ -1112,7 +1088,7 @@
 						$title 			 = $ogTitle;
 						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
-						$description	 = '<span class="time">4. und 05. Juni 2017</span><br />
+						$description	 = '<span class="time">3. und 4. Juni 2017</span><br />
 						Jeden Tag neue Überraschungen.';
 
 						if ( strtotime($mtf) <= strtotime($endDate) ) {
@@ -1121,6 +1097,30 @@
 						}
 					?>
 
+					<?php
+						$endDate 		 = '05-06-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Gothik-Treffpunkt-Deluxe';
+						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogDescription	 = 'ab 20 Uhr' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">4. und 5. Juni 2017</span><br />
+						ab 20 Uhr';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = 'color: white; background: black;';
+							include 'tpl.php';
+						}
+					?>
 
 					<?php
 						$endDate 		 = '03-07-2017';
@@ -1176,7 +1176,7 @@
 
 
 					<?php
-						$endDate 		 = '20-10-2017';
+						$endDate 		 = '21-10-2017';
 
 						$news 			 = "nein";
 						$img 			 = "nein";
