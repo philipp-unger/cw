@@ -776,11 +776,11 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Wiederholungstäter Powerfrauen-Abende';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Powerfrauen Workshop' ;
 
 						$title 			 = 'Wiederholungs-täter Powerfrauen-Abende';
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = $imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 						$description	 = '
 						<span class="time">11. Januar 2017</span> <br />
 						Weitere Informationen hier:<br />
@@ -805,11 +805,11 @@
 						$folderName		 = "valentin/";
 
 						$ogTitle 		 = '14.02 - der Tag der Verliebten';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine besondere Überraschung. 3 Gänge Menü inklusive Liebeselixier als Begrüßungsdrink. Unsere Türen sind für Sie weit geöffnet. Wir freuen uns auf Sie. Beginn: ab 18 Uhr. Celina und Ihr Team' ;
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 						$description	 = 'Liebe Verliebten und zukünftige Verliebten, in ihrem Cafe Wagner erwartet Sie zum Valentinstag eine
 											besondere Überraschung. <br>
 											3 Gänge Menü inklusive Liebeselixier als Begrüßungsdrink<br /><br />
@@ -835,12 +835,12 @@
 						$folderName		 = "internationaler_frauentag/";
 
 						$ogTitle 		 = 'Am 8. März ist Internationaler Frauentag';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Lassen Sie sich am Tag der Tage, mit zahlreichen Überraschungen im Café Wagner verwöhnen.' ;
 
 
 						$title 			 = 'Internationaler Frauentag im Café Wagner';
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = 'Am 8. März ist Internationaler Frauentag. <br><br>
 											Das Café Wagner verwöhnt an diesem Tag besonders das sinnliche Geschlecht mit zahlreichen Überraschungen.
@@ -871,12 +871,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Leipziger Buchmesse auch in ihrem Café Wagner';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Jeden Tag eine Lesung! Immer ab 19 Uhr' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">23. - 26. März 2017</span> <br />Jeden Tag eine Lesung! <br />Immer ab 19 Uhr';
 
@@ -896,12 +896,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Ostern im Café Wagner';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = '16. und 17. April 2017 | Kuchen-Torten-Festival. Jeden Tag zwischen 10 und 18 Uhr.' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">16. und 17. April 2017</span><br />
 						Kuchen-Torten-Festival. <br /><br />Jeden Tag zwischen 10 und 18 Uhr.';
@@ -921,12 +921,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Tanz in den Mai';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = '30. April 2017 | Powerfrauen-Abend unter den Motto Hexentreff.' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">30. April 2017</span><br />
 						Powerfrauen-Abend unter den Motto Hexentreff.<br /><br />
@@ -951,12 +951,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Honky Tonk Leipzig';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Wir sind wieder mit dabei.' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">06. Mai 2017</span><br />
 						Wir sind wieder mit dabei.<br />
@@ -978,12 +978,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Muttertag im Café Wagner';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Den ganzen Tag über - viele Überraschungen für die liebe Mutter.' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">14. Mai 2017</span><br />
 						Den ganzen Tag über - viele Überraschungen für die liebe Mutter.';
@@ -1004,12 +1004,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Wagner Geburtstag';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Mit großer Kuchen-Tortentafel | ab 14 Uhr' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">22. Mai 2017</span><br />
 						Mit großer Kuchen-Tortentafel<br /><br />
@@ -1031,12 +1031,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Himmelfahrt / Vatertag';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Special Deal: Bestell 10 Bier und Du bekommst eine 1 runde Wodka aufs Haus.' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">25. Mai 2017</span><br />
 						<b>Special Deal:</b> <br />Bestell 10 Bier und Du bekommst eine 1 runde Wodka aufs Haus.';
@@ -1057,12 +1057,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Luther Tage';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Weiter Informationen folgen.' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">25. - 28. Mai 2017</span><br />
 						Weiter Informationen folgen.';
@@ -1083,12 +1083,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'WGT Spezial';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'Jeden Tag neue Überraschungen.' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">3. und 4. Juni 2017</span><br />
 						Jeden Tag neue Überraschungen.';
@@ -1108,12 +1108,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Gothik-Treffpunkt-Deluxe';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = 'ab 20 Uhr' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">4. und 5. Juni 2017</span><br />
 						ab 20 Uhr';
@@ -1133,12 +1133,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Wagner Festtage';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = '' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">28. Juni - 2. Juli 2017</span>';
 
@@ -1158,12 +1158,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Sommerparty im Café Wagner';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = '' ;
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">18. August 2017</span> <br />
 						Halten Sie sich schon mal diesen Termin frei. <br />
@@ -1186,12 +1186,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Oktoberfest im Café Wagner';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = "O'zapft is | Beginn ist ab 18 Uhr.";
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = "<span class='time'>20. Oktober 2017</span> <br />
 						O'zapft is.<br /><br />
@@ -1213,12 +1213,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Weihnachtsfeier im Café Wagner';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = "Alle Jahre wieder. | Beginn ist ab 20 Uhr.";
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = "<span class='time'>15. Dezember 2017</span> <br />
 						Alle Jahre wieder.<br /><br />
@@ -1239,12 +1239,12 @@
 						$folderName		 = "";
 
 						$ogTitle 		 = 'Silvester im Café Wagner';
-						$ogImg   		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'share.jpg';
+						$ogImg   		 = $defaultShareImage;
 						$ogDescription	 = "Konzert mit festlichen 3 Gänge Menü und Champagner | Vorbestellung telefonisch oder direkt im Café Wagner";
 
 
 						$title 			 = $ogTitle;
-						$imgPost		 = $defaultShareImage;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
 
 						$description	 = '<span class="time">31. Dezember 2017</span> <br />
 						Konzert mit festlichen 3 Gänge Menü und Champagner<br /><br />
