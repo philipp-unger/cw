@@ -768,7 +768,7 @@
 
 
 					<?php
-						$endDate 		 = '12-01-2018';
+						$endDate 		 = '12-01-2017';
 
 						$news 			 = "nein";
 						$img 			 = "nein";
