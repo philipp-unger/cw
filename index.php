@@ -1099,6 +1099,32 @@
 						}
 					?>
 
+
+					<?php
+						$endDate 		 = '02-06-2017';
+
+						$news 			 = "nein";
+						$img 			 = "nein";
+
+						$folderName		 = "";
+
+						$ogTitle 		 = 'Kindertag im Café Wagner';
+						$ogImg   		 = $defaultShareImage;
+						$ogDescription	 = 'ab 17 Uhr mit Magier' ;
+
+
+						$title 			 = $ogTitle;
+						$imgPost		 = 'https://cw-event.herokuapp.com/img/'. $folderName .'post.jpg';
+
+						$description	 = '<span class="time">1. Juni 2017</span><br />
+						ab 17 Uhr mit Magier';
+
+						if ( strtotime($mtf) <= strtotime($endDate) ) {
+							$style = '';
+							include 'tpl.php';
+						}
+					?>
+
 					<?php
 						$endDate 		 = '05-06-2017';
 
